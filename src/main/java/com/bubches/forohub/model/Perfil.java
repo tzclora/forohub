@@ -1,9 +1,15 @@
 package com.bubches.forohub.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "perfiles")
+@Getter
+@Setter
+@NoArgsConstructor
 public class Perfil {
 
     @Id
@@ -12,7 +18,5 @@ public class Perfil {
 
     private String nombre;
 
-    public Perfil() {}
-
-    // Getters y Setters
 }
+
