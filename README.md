@@ -32,9 +32,3 @@ API REST para la gestión de un foro, que permite registrar, listar, actualizar 
 
 ---
 
-# Comandos para subir a GitHub
-
-```bash
-git add .
-git commit -m "CRUD completo de tópicos con validación, paginación, filtros y manejo de errores"
-git push origin main
